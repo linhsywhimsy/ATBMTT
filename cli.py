@@ -196,7 +196,7 @@ def chuc_nang_7():
     print("\n--- CHẠY BỘ KIỂM THỬ ---")
     test_path = os.path.join(
         os.path.dirname(os.path.abspath(__file__)),
-        "tests", "test_all.py"
+        "test", "test_all.py"
     )
     subprocess.run([sys.executable, test_path])
 
