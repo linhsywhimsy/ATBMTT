@@ -13,7 +13,7 @@ ATBMTT/
 │   ├── tiny_a5_1.py      # Thuật toán TinyA5/1
 │   ├── a5_1.py           # Thuật toán A5/1 tổng quát
 │   └── utils.py          # Hàm chuyển đổi text/file <-> bit
-├── tests/
+├── test/
 │   ├── __init__.py
 │   └── test_all.py       # Bộ kiểm thử
 ├── main.py               # Điểm khởi chạy
