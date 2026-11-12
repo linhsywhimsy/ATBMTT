@@ -23,6 +23,34 @@ ATBMTT/
 └── .gitignore
 
 ```
+## Yêu cầu hệ thống
+
+- *Python 3.10* trở lên.
+- *Không cần cài thêm thư viện* (chỉ dùng thư viện chuẩn của Python).
+
+## Hướng dẫn cài đặt và chạy chương trình
+
+*Bước 1: Tải mã nguồn*
+Mở Terminal (Linux/Mac) hoặc CMD (Windows), tải code từ GitHub về máy:
+git clone https://github.com/linhsywhimsy/ATBMTT.git
+cd ATBMTT
+(Hoặc bấm nút Code màu xanh trên GitHub -> Download ZIP, giải nén và mở Terminal/CMD tại thư mục vừa giải nén).
+
+*Bước 2: Khởi chạy chương trình*
+Tại thư mục gốc của dự án, gõ lệnh:
+python main.py
+(Nếu dùng máy Mac, có thể dùng lệnh python3 main.py)
+
+*Bước 3: Sử dụng*
+Sau khi chạy lệnh trên, màn hình sẽ hiển thị Menu chương trình với 7 chức năng (Mã hóa/giải mã văn bản, Mã hóa/giải mã tệp, Chạy kiểm thử...). Bạn chỉ cần nhập số tương ứng và làm theo hướng dẫn trên màn hình.
+github.com
+
+## Cách chạy kiểm thử tự động
+
+Để chạy bộ test tự động kiểm tra tính đúng đắn của thuật toán, hãy mở Terminal/CMD tại thư mục gốc và chạy:
+python test/test_all.py
+Kết quả mong đợi sẽ hiển thị: Passed: 9. 
+
 ## Phân công nhóm
 
 | Thành viên | Công việc |
